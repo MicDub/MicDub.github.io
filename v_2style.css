@@ -1,0 +1,140 @@
+body {
+	background: #6A6A6A; 
+	margin-bottom: 0px; 
+	margin-top: 0px; 
+	margin-left: 0px; 
+	margin-right: 0px; 
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	font-size: 10pt;
+	text-align: left;
+}
+
+table {
+	background: White;
+}
+
+.link_table_cell {
+	background: #448AFF;
+	text-indent: 10px;
+   font-size: 11pt;
+	color: White;
+	border-color: White;
+	border-top: solid;
+	border-top-width: 1px;
+	border-bottom: solid;
+	border-bottom-width: 1px;
+}
+
+.horiz_link {
+	background: #448AFF;
+	text-align: center;
+   font-size: 11pt;
+	color: White;
+	border-color: White;
+	border-left: solid;
+	border-left-width: 1px;
+	border-right: solid;
+	border-right-width: 1px;
+}
+
+
+
+.link_table_cell_hover {
+	background: #FFC24B;
+   text-indent: 10px;
+	font-size: 11pt;
+	color: White;
+	border-color: White;
+	border-top: solid;
+	border-top-width: 1px;
+	border-bottom: solid;
+	border-bottom-width: 1px;
+}
+
+.horiz_hover {
+	background: #FFC24B;
+	text-align: center;
+	font-size: 11pt;
+	color: #6A6A6A; 
+	border-color: White;
+	border-left: solid;
+	border-left-width: 1px;
+	border-right: solid;
+	border-right-width: 1px;
+}
+
+
+.grey_cell {
+	background: #EEEEEE;
+	padding-left: 8px;
+	padding-right: 8px;
+
+}
+
+.footer {
+	background: #448AFF;
+	text-indent: 10px;
+   font-size: 8pt;
+	color: White;
+}
+
+a {
+   color: #FFC24B;
+	font-weight: bold;
+   text-decoration: none;
+}
+
+
+a:hover {
+	color: #6A6A6A; 
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.heading_cell {
+	background: #FFC24B;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #448AFF;
+	font-weight: bold;
+	font-size: 24pt;
+	letter-spacing: -2pt;
+	text-indent: 10px;
+	border-left: solid;
+	border-right: solid;
+	border-top: solid;
+	border-bottom: solid;
+	border-left-color: #448AFF;
+	border-right-color: #448AFF;
+	border-top-color: #448AFF;
+	border-bottom-color: #448AFF;
+   border-left-width: 1px;
+	border-right-width: 1px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+}
+
+.container_cell {
+	border-left: solid;
+	border-right: solid;
+	border-top: solid;
+	border-bottom: solid;
+	border-left-color: #448AFF;
+	border-right-color: #448AFF;
+	border-top-color: #448AFF;
+	border-bottom-color: #448AFF;
+   border-left-width: 1px;
+	border-right-width: 1px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+}
+
+.cell_padding {
+   padding-left: 3px;
+	padding-right: 3px;
+}
+
+li {
+	list-style: url(images/arrow_bg_white.gif);
+	font-size: 11pt;
+}
+

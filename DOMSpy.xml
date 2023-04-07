@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XML_DIZ_INFO>
+	<MASTER_PAD_VERSION_INFO>
+		<MASTER_PAD_VERSION>2.01</MASTER_PAD_VERSION>
+		<MASTER_PAD_EDITOR>PADGen 2.0.1.22 http://www.padgen.org</MASTER_PAD_EDITOR>
+		<MASTER_PAD_INFO>Portable Application Description, or PAD for short, is a data set that is used by shareware authors to disseminate information to anyone interested in their software products. To find out more go to http://www.asp-shareware.org/pad</MASTER_PAD_INFO>
+	</MASTER_PAD_VERSION_INFO>
+	<Company_Info>
+		<Company_Name>Dubbeldam Software</Company_Name>
+		<Address_1>Amsterdamlaan 59</Address_1>
+		<Address_2 />
+		<City_Town>Woerden</City_Town>
+		<State_Province>ut</State_Province>
+		<Zip_Postal_Code>3446 AK</Zip_Postal_Code>
+		<Country>Netherlands</Country>
+		<Company_WebSite_URL>http://www.dubbeldam.com</Company_WebSite_URL>
+		<Contact_Info>
+			<Author_First_Name>Michael</Author_First_Name>
+			<Author_Last_Name>Dubbeldam</Author_Last_Name>
+			<Author_Email>info2NO@SPAMdubbeldam.com</Author_Email>
+			<Contact_First_Name>Michael</Contact_First_Name>
+			<Contact_Last_Name>Dubbeldam</Contact_Last_Name>
+			<Contact_Email>michael@dubbeldam.com</Contact_Email>
+		</Contact_Info>
+		<Support_Info>
+			<Sales_Email>info2NO@SPAMdubbeldam.com</Sales_Email>
+			<Support_Email>info2NO@SPAMdubbeldam.com</Support_Email>
+			<General_Email>info2NO@SPAMdubbeldam.com</General_Email>
+			<Sales_Phone />
+			<Support_Phone />
+			<General_Phone />
+			<Fax_Phone />
+		</Support_Info>
+	</Company_Info>
+	<Program_Info>
+		<Program_Name>DOMSpy</Program_Name>
+		<Program_Version>1.0</Program_Version>
+		<Program_Release_Month>03</Program_Release_Month>
+		<Program_Release_Day>21</Program_Release_Day>
+		<Program_Release_Year>2005</Program_Release_Year>
+		<Program_Cost_Dollars>49</Program_Cost_Dollars>
+		<Program_Cost_Other_Code />
+		<Program_Cost_Other />
+		<Program_Type>Shareware</Program_Type>
+		<Program_Release_Status>New Release</Program_Release_Status>
+		<Program_Install_Support>Install and Uninstall</Program_Install_Support>
+		<Program_OS_Support>Windows2000,WinXP</Program_OS_Support>
+		<Program_Language>English</Program_Language>
+		<Program_Change_Info />
+		<Program_Specific_Category>Internet</Program_Specific_Category>
+		<Program_Category_Class>Network &amp; Internet::Browser Tools</Program_Category_Class>
+		<Program_Categories />
+		<Program_System_Requirements />
+		<Includes_JAVA_VM>N</Includes_JAVA_VM>
+		<Includes_VB_Runtime>N</Includes_VB_Runtime>
+		<Includes_DirectX>N</Includes_DirectX>
+		<File_Info>
+			<Filename_Versioned />
+			<Filename_Previous />
+			<Filename_Generic />
+			<Filename_Long />
+			<File_Size_Bytes>1269681</File_Size_Bytes>
+			<File_Size_K>1239</File_Size_K>
+			<File_Size_MB>1.21</File_Size_MB>
+		</File_Info>
+		<Expire_Info>
+			<Has_Expire_Info>Y</Has_Expire_Info>
+			<Expire_Count>30</Expire_Count>
+			<Expire_Based_On>Days</Expire_Based_On>
+			<Expire_Other_Info />
+			<Expire_Month />
+			<Expire_Day />
+			<Expire_Year />
+		</Expire_Info>
+	</Program_Info>
+	<Program_Descriptions>
+		<English>
+			<Keywords>DOMSpy Internet Explore IE IE6 DOM utility inspector</Keywords>
+			<Char_Desc_45>DOM Inspector for Internet Explorer</Char_Desc_45>
+			<Char_Desc_80>DOMSpy brings FireFox's DOM Inspector to IE</Char_Desc_80>
+			<Char_Desc_250>DOMSpy brings Firefox’s DOM Inspector feature to Internet Explorer. The program allows you to simply point the crosshairs to a spot on a site in Internet Explorer and it lights up the HTML element, shows the element’s boundaries, style rules etc.</Char_Desc_250>
+			<Char_Desc_450>DOMSpy that brings Firefox’s DOM Inspector feature to Internet Explorer. The program allows you to simply point the crosshairs to a spot on a site rendered in Internet Explorer and it lights up the HTML element, shows the element’s boundaries, style rules etc. Web designers that tested it use it every day on their jobs.
+</Char_Desc_450>
+			<Char_Desc_2000>DOMSpy that brings Firefox’s DOM Inspector feature to Internet Explorer. Simply click on an HTML element in a rendered page and see the DOM tree, style and positioning attributes. DOMSpy is indispensible for creating pixel-perfect websites. Easily fix positioning issues on your HTML pages. See the style tricks used on public websites. DOMSpy inspects HTML elements and style attributes rendered in Internet Explorer down to the pixel level. Users can try out the effect of style attribute or HTML changes on-the-fly 
+
+DOMSpy shows for all HTML elements, as they are loaded in IE, the exact positioning, the applied style rules and style attributes. You can tweak the embedded style attributes and HTML interactively. 
+
+Instead of having to tweak web pages by changing the source HTML and reloading the page, you can point to any spot in the browser window, and the program will highlight the HTML element at that location. It shows the exact boundaries of the element, the relations in the HTML hierarchy, the style properties and the style rules that apply to the element. You can change the HTML and style attributes interactively, and see the result immediately without having to reload the page.
+
+One of the challenges of creating good looking web pages is to keep track of linked style sheets, embedded style sheets, style sheets included in other style sheets and in-line style rules. Any of these spawn rules that can influence any of the more than 130 style attributes. On top of this, there's relative and absolute positioning, there's block elements versus inline elements and there's positioning in tables that hardly anyone fully understands. With DOMSpy, you can simply point to any element on the web page, and the program shows the positioning, any applicable style rules with their source, and all style attributes with non-default values highlighted. Therefore, web developers and designers can now immediately see the styling applied to any element, and quickly try changes.</Char_Desc_2000>
+		</English>
+	</Program_Descriptions>
+	<Web_Info>
+		<Application_URLs>
+			<Application_Info_URL>http://www.dubbeldam.com</Application_Info_URL>
+			<Application_Order_URL>http://www.dubbeldam.com</Application_Order_URL>
+			<Application_Screenshot_URL>http://www.dubbeldam.com/DOMspy640.gif</Application_Screenshot_URL>
+			<Application_Icon_URL>http://www.dubbeldam.com/images/dom_logo.gif</Application_Icon_URL>
+			<Application_XML_File_URL>http://www.dubbeldam.com/DOMSpy.xml</Application_XML_File_URL>
+		</Application_URLs>
+		<Download_URLs>
+			<Primary_Download_URL>http://www.dubbeldam.com/DOMSpy101Trial.exe</Primary_Download_URL>
+			<Secondary_Download_URL />
+			<Additional_Download_URL_1 />
+			<Additional_Download_URL_2 />
+		</Download_URLs>
+	</Web_Info>
+	<Permissions>
+		<Distribution_Permissions />
+		<EULA />
+	</Permissions>
+</XML_DIZ_INFO>

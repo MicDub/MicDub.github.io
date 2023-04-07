@@ -1,0 +1,5 @@
+
+
+Redirect permanent /prod01.htm http://www.dubbeldam.com/chordfinder.htm
+
+Redirect permanent /ds32ch21.zip http://www.dubbeldam.com/setupDsChordfinderDemo.exe

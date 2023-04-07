@@ -1,0 +1,9 @@
+
+AuthType Basic
+
+AuthName "Download Tune and ChordFinder"
+
+
+
+require valid-user
+AuthUserFile "/home/dubbeld/.htpasswds/public_html/dltnc/passwd"

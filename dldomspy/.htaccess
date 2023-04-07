@@ -1,0 +1,9 @@
+
+AuthType Basic
+
+AuthName "Download DOMSpy"
+
+AuthUserFile "/home/dubbeld/.htpasswds/dldomspy/passwd"
+
+
+require valid-user

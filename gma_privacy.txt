@@ -1,0 +1,2 @@
+Guitar music analyzer (GMA) records sound only for local processing in the app. No sound data is communicated to a server.
+GMA contains Admob advertising, see https://support.google.com/admob/answer/6128543?hl=en for details.

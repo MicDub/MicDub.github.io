@@ -1,0 +1,112 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml">
+  <head>
+    <style>
+        v\:* { behavior: url(#default#VML); }
+    </style>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>Google Maps test</title>
+
+	<script src = "yahoo.js" ></script>
+	<script src = "dom.js" ></script>
+	<script src = "event.js" ></script>
+	<script src = "dragdrop.js" ></script>
+	<script src = "slider.js" ></script>
+
+    <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAA0mkzSXXQi_pV4t4IjtZO9BTWMRDJve5mF3I0CiDE9kzGy31ZMxTm3M1avlU-QkmWGjCmee1D8yjADw"
+      type="text/javascript"></script>
+    <script type="text/javascript">
+    //<![CDATA[
+    
+    function onWheelUp(p) {
+        alert(p);
+    }
+    
+    function load() {
+        if (!GBrowserIsCompatible()) {
+            return;
+        }
+        
+        var slider = YAHOO.widget.Slider.getHorizSlider("sliderbg", "sliderthumb", 0, 500, 5); 
+        slider.onChange = onSlide;
+        
+        window.map = new GMap2(document.getElementById("map"));
+        var point = new GLatLng(52.01609464127863, 4.685016498605245);
+        map.setCenter(point, 17);
+        map.setMapType(G_SATELLITE_MAP);
+        map.enableContinuousZoom();
+        map.addControl(new GLargeMapControl());
+        
+        window.marker = new GMarker(point);
+        //marker.getIcon().iconSize = new GSize(3 * marker.getIcon().iconSize.width, 3 * marker.getIcon().iconSize.height);
+        map.addOverlay(marker);
+        
+    }
+    
+    function onSlide(offsetFromStart) {
+        // determine the actual value from the offset
+        var point = new GLatLng(52.01609464127863 + 0.000003 * offsetFromStart, 4.685016498605245);
+        map.panTo(point);
+        marker.setPoint(point);
+        document.all.maxspeed.innerText = ((offsetFromStart / 3) % 100) - ((offsetFromStart / 3) % 10);
+        document.all.arrow.style.rotation = offsetFromStart;
+        document.all.speedo.style.rotation = -125 + offsetFromStart / 2;
+        document.all.acc.style.rotation = - 130 + offsetFromStart / 10.0;
+        
+        var scale = offsetFromStart / 500;
+        document.all.acc.style.height = 100 * scale;
+        document.all.acc.style.width = 100 * scale;
+        document.all.acc.style.left = 620 - 50 * scale;
+        document.all.acc.style.top = 450 - 50 * scale;
+        
+    }
+    
+    
+    //]]>
+    </script>
+  </head>
+  <body onload="load()" onunload="GUnload()">
+  Beweeg de tijd slider voor animatie.<br />
+    <span id="map" style="width: 500px; height: 500px"></span>
+    <v:oval style="position:absolute; left:550; top:30; height:100pt; width: 100pt" filled="false" strokecolor="red" strokeweight="14">
+    </v:oval>
+    <span id="maxspeed" style="position:absolute; left:580; top:55; font-size:75;">
+        50
+    </span>
+
+    <v:shape id="arrow" 
+        fillcolor="red" strokecolor="red"
+        coordorigin="0 0" coordsize="200 200"
+        style="position:absolute;top:200;left:570;width:100;height:100"
+        path="m 1,80 l 150,80, 150,50, 200,100, 150,150, 150,120, 1,120 x e">
+   </v:shape>
+
+    <img src="speedometer.jpg" style="position:absolute;top:0;left:720;" /> 
+
+    <v:shape id="speedo" 
+        fillcolor="red" strokecolor="red"
+        coordorigin="0 0" coordsize="200 200"
+        style="position:absolute;top:35;left:757;width:300;height:300; rotation=-125;"
+        path="m 95,100 l 105, 100, 100, 0 x e">
+   </v:shape>
+       
+    <img src="top.jpg" style="position:absolute;top:350;left:570;" /> 
+
+    <v:shape id="acc" 
+        fillcolor="red" strokecolor="red"
+        coordorigin="0 0" coordsize="200 200"
+        style="position:absolute;top:400;left:570;width:100;height:100; rotation=-90;"
+        path="m 100,90 l 150,90, 150,80, 200,100, 150,120, 150,110, 100,110 x e">
+   </v:shape>
+       
+       
+        
+    <br />
+    <br />
+    Tijd slider:    
+    <div id="sliderbg" style="">
+    	<div id="sliderthumb" style=""><img alt="slider" src="horizSlider.png"/></div>
+    </div>
+    
+    
+  </body>
+</html>

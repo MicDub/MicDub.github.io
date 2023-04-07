@@ -1,0 +1,14 @@
+
+
+
+
+
+
+AuthType Basic
+
+AuthName "Download ChordFinder"
+
+
+
+require valid-user
+AuthUserFile "/home/dubbeld/.htpasswds/public_html/dlchf/passwd"
