@@ -13,6 +13,19 @@
   <meta property="og:description" content="Games, apps en websites. Sinds 1994.">
   <meta property="og:image" content="https://dubbeldam.net/img/overtakeit.jpg">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <script>
+    // Stuur bezoekers zonder Nederlands in hun browsertalen naar /en/, tenzij ze zelf een taal kozen
+    (function () {
+      if (/bot|crawl|spider|slurp/i.test(navigator.userAgent)) return;
+      var pref = null;
+      try { pref = localStorage.getItem('lang'); } catch (e) {}
+      if (!pref) {
+        var langs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
+        pref = Array.prototype.some.call(langs, function (l) { return /^nl(-|$)/i.test(l); }) ? 'nl' : 'en';
+      }
+      if (pref === 'en') location.replace('en/' + location.hash);
+    })();
+  </script>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -163,8 +176,16 @@
   <footer>
     <div class="wrap">
       <span>© 1994–2026 Dubbeldam Software · KvK 42209685</span>
-      <span><a href="en/">English</a></span>
+      <span><a href="en/" hreflang="en">English</a></span>
     </div>
   </footer>
+  <script>
+    // Onthoud de taalkeuze van de bezoeker
+    document.querySelectorAll('a[hreflang]').forEach(function (a) {
+      a.addEventListener('click', function () {
+        try { localStorage.setItem('lang', a.getAttribute('hreflang')); } catch (e) {}
+      });
+    });
+  </script>
 </body>
 </html>
