@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675"><rect width="1200" height="675" fill="#0b0d12"/>
+<g fill="none" stroke-linecap="round" stroke-width="7" opacity=".95">
+<path d="M80 520 C300 470 420 380 600 360 S900 250 1120 140" stroke="#38bdf8"/>
+<path d="M160 120 C320 220 420 300 600 360 S820 520 980 600" stroke="#38bdf8"/>
+<path d="M600 360 C640 260 700 170 760 60" stroke="#facc15"/>
+<path d="M600 360 C520 450 470 540 430 640" stroke="#38bdf8"/>
+<path d="M60 300 C260 320 420 340 600 360" stroke="#fb923c"/>
+<path d="M600 360 C760 380 960 400 1150 420" stroke="#38bdf8"/>
+<path d="M380 400 C420 360 470 330 520 345" stroke="#ef4444"/>
+<path d="M820 300 C870 280 920 250 960 230" stroke="#ef4444"/>
+</g>
+<g font-family="system-ui,Segoe UI,Arial,sans-serif"><rect x="40" y="40" width="300" height="150" rx="16" fill="#12151c" stroke="#232733"/>
+<text x="64" y="80" fill="#fff" font-size="22" font-weight="700">spitskaart<tspan fill="#38bdf8">.nl</tspan></text>
+<text x="64" y="150" fill="#fb923c" font-size="58" font-weight="700">128</text><text x="190" y="135" fill="#cbd5e1" font-size="18">km file</text><text x="190" y="158" fill="#94a3b8" font-size="16">op snelwegen</text></g></svg>
